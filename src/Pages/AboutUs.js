@@ -5,7 +5,7 @@ function AboutUs() {
     <div>
       <h1>About Us</h1>
       <p>Contact:254711401911</p>
-      <p>We aim to help you find events that match your interests.</p>
+      <p>Mother nature made us do it,Let's have fun.</p>
     </div>
   );
 }
