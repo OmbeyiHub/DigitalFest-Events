@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Rating from './Rating';
+
+function EventItem({ event,userId }) {
 
   const [rating,setRating] = useState(0)
   return (
@@ -7,6 +10,9 @@ import React from 'react';
       <p>{event.description}</p>
       <p>{event.date}</p>
       <p>{event.location}</p>
+      <p>{event.Price}</p>
+      <Rating rating={rating} setRating={setRating}eventId={event.id} userId={userId}/>
+      <img src={event.Poster} alt={event.name}/>
     </div>
   );
 }
