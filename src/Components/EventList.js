@@ -40,6 +40,6 @@ const EventList = () => {
       </ul>
     </div>
   );
-};
+}
 
 export default EventList;

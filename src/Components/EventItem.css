@@ -1,0 +1,49 @@
+
+
+.event-card {
+    background-color: bisque;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-card-image {
+    width: 100%;
+    height: 200px;
+    display: block;
+  }
+  
+  .event-card-content {
+    padding: 16px;
+  }
+  
+  .event-card-title {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .event-card-description {
+    margin: 8px 0;
+    color: #bd3e3e;
+    font-size: 14px;
+  }
+  
+  .event-card-date,
+  .event-card-location,
+  .event-card-price {
+    margin: 4px 0;
+    color: #777;
+    font-size: 12px;
+  }
+  
