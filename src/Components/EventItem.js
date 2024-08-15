@@ -1,17 +1,12 @@
 import React from 'react';
-import './EventItem.css'; 
 
-function EventItem({ event }) {
+  const [rating,setRating] = useState(0)
   return (
-    <div className="event-card">
-      <img src={event.Poster} alt={event.name} className="event-card-image" />
-      <div className="event-card-content">
-        <h2 className="event-card-title">{event.name}</h2>
-        <p className="event-card-description">{event.description}</p>
-        <p className="event-card-date">{event.date}</p>
-        <p className="event-card-location">{event.location}</p>
-        <p className="event-card-price">{event.Price}</p>
-      </div>
+    <div>
+      <h2>{event.name}</h2>
+      <p>{event.description}</p>
+      <p>{event.date}</p>
+      <p>{event.location}</p>
     </div>
   );
 }
