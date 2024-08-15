@@ -5,7 +5,7 @@ import './AvailableEvents.css'
 function AvailableEvents() {
   const [events, setEvents] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:3002/events')
+    fetch('http://localhost:8002/events')
       .then(response => response.json())
       .then(data => setEvents(data));
   }, []);

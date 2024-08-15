@@ -5,14 +5,19 @@ import Home from './Pages/Home';
 import AvailableEvents from './Pages/AvailableEvents';
 import AboutUs from './Pages/AboutUs';
 
+
+
 function App() {
+
   return (
     <Router>
       <NavBar />
       <Routes>
+      
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<AvailableEvents />} />
         <Route path="/about" element={<AboutUs />} />
+       
       </Routes>
     </Router>
   );

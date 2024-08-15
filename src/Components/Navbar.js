@@ -11,6 +11,7 @@ function Navbar() {
         <li className="navbar-item"><Link to="/" className="navbar-link"><FontAwesomeIcon icon={faHome} />Home</Link></li>
         <li className="navbar-item"><Link to="/events" className="navbar-link"><FontAwesomeIcon icon={faMagnifyingGlass} />Available Events</Link></li>
         <li className="navbar-item"><Link to="/about" className="navbar-link"><FontAwesomeIcon icon={faAddressCard} />About Us</Link></li>
+       
       </ul>
     </nav>
   );
