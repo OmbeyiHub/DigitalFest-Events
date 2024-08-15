@@ -1,46 +1,96 @@
 {
-    "events": [
-    { "id": 1,
-       "name": "Music Concerts",
-        "description": "Live concert",
-         "date": "2024-08-15", 
-         "Price":2000,
-         "location": "City Hall",
-         "Poster":"https://images.unsplash.com/photo-1582711012153-0ef6ef75d08f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljJTIwY29uY2VydHxlbnwwfHwwfHx8MA%3D%3D" },
-         
-    { "id": 2,
-       "name": "Sporting Activities", 
-       "description": "Local football match",
-         "date": "2024-08-20",
-         "Price":500,
-         "location": "Stadium",
-         "Poster":"https://media.istockphoto.com/id/498509255/photo/members-of-female-high-school-soccer-playing-match.webp?b=1&s=612x612&w=0&k=20&c=WqwvDKmOQrEZXnjRElCXCqkvxhYojaXZzejst0TPvY8=" },
-
-    { "id": 3,
-        "name": "Cultural Activities", 
-        "description": "Different Culture Show",
-         "date": "2024-08-14",
-         "Price":2500,
-         "location": "Uhuru-Park",
-         "Poster":"https://images.unsplash.com/photo-1722091296082-8d697ccfa171?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGN1bHR1cmFsJTIwZXZlbnR8ZW58MHx8MHx8fDA%3D" },
-
-    { "id": 4,
-        "name": "Cycling Event", 
-        "description": "Cycling is Fun",
-         "date": "2024-08-13",
-         "Price":500,
-         "location": "Cycling Park",
-         "Poster":"https://images.unsplash.com/photo-1471439330580-1493ebc92c13?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y3ljbGluZyUyMGV2ZW50fGVufDB8fDB8fHww" },
-
-    { "id": 5,
-        "name": "Developers Spot", 
-        "description": "Happy Coding",
-         "date": "2024-08-12",
-         "Price":2500,
-         "location": "Flartion School",
-         "Poster":"https://media.istockphoto.com/id/935964092/photo/adding-modifications-to-their-latest-code.webp?b=1&s=612x612&w=0&k=20&c=8I0CI7Mm9588SiyDmjCxYg2dFyfhgrJA-BrL-IStYWI=" }
-      
-
-    ]
-  }
-  
+  "events": [
+    {
+      "id": "1",
+      "name": "Music Concerts",
+      "description": "Live concert",
+      "date": "2024-08-15",
+      "Price": 2000,
+      "location": "City Hall",
+      "category": "Music Concerts",
+      "Poster": "https://images.unsplash.com/photo-1582711012153-0ef6ef75d08f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG11c2ljJTIwY29uY2VydHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "2",
+      "name": "Sporting Activities",
+      "description": "Local football match",
+      "date": "2024-08-20",
+      "Price": 500,
+      "location": "Stadium",
+      "category": "Sporting Activities",
+      "Poster": "https://media.istockphoto.com/id/498509255/photo/members-of-female-high-school-soccer-playing-match.webp?b=1&s=612x612&w=0&k=20&c=WqwvDKmOQrEZXnjRElCXCqkvxhYojaXZzejst0TPvY8="
+    },
+    {
+      "id": "3",
+      "name": "Team Building",
+      "description": "Collaboration Day",
+      "date": "2024-08-14",
+      "Price": 2500,
+      "location": "Uhuru-Park",
+      "category": "Team Building",
+      "Poster": "https://media.istockphoto.com/id/1391967807/photo/adventurous-teambuilding-in-mountains-adrenaline-jumping-into-cold-water-in-gorge.webp?b=1&s=612x612&w=0&k=20&c=ddHvGwf1qyr4Hq7uLdGvHULAMqWw1n5ScMp2baHfZRA="
+    },
+    {
+      "id": "4",
+      "name": "Food and Drink Event",
+      "description": "Let's Embrace our Culture",
+      "date": "2024-08-13",
+      "Price": 500,
+      "location": "Aboretum",
+      "category": "Food and Drink Event",
+      "Poster": "https://media.istockphoto.com/id/650656164/photo/catering-food-wedding-event-table.jpg?s=612x612&w=0&k=20&c=m09ez9MxpnDj2z0oJXRi4dyXt8I1imkCVRQoL8C09BM="
+    },
+    {
+      "id": "5",
+      "name": "Developers Spot",
+      "description": "Happy Coding",
+      "date": "2024-08-12",
+      "Price": 2500,
+      "location": "Flartion School",
+      "category": "Developers Spot",
+      "Poster": "https://media.istockphoto.com/id/935964092/photo/adding-modifications-to-their-latest-code.webp?b=1&s=612x612&w=0&k=20&c=8I0CI7Mm9588SiyDmjCxYg2dFyfhgrJA-BrL-IStYWI="
+    },
+    {
+      "id": "6",
+      "name": "Charity Event",
+      "description": "Sharing is Caring",
+      "date": "2024-08-13",
+      "Price": "Free",
+      "location": "Citam Hall",
+      "category": "Charity Event",
+      "Poster": "https://media.istockphoto.com/id/1344903849/photo/paper-people-chain-with-hearts-teamwork-and-love-concept.webp?b=1&s=612x612&w=0&k=20&c=69pEBvgTlKxQRfz-k9q31TUdC6y73U_IZy4PKq3M_RA="
+    },
+    {
+      "id": "7",
+      "name": "Outdoor Cinema",
+      "description": "Watching Movie(Fiction)",
+      "date": "2024-08-12",
+      "Price": 2000,
+      "location": "Nairobi Cinema",
+      "category": "Outdoor Cinema",
+      "Poster": "https://images.unsplash.com/photo-1721733258290-cac1a9204564?q=80&w=1072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "1",
+      "user": "User1",
+      "rating": 1
+    },
+    {
+      "id": "2",
+      "user": "User2",
+      "rating": 2
+    },
+    {
+      "id": "3",
+      "user": "User3",
+      "rating": 3
+    },
+    {
+      "eventId": "1",
+      "rating": 1,
+      "id": "94c4"
+    }
+  ]
+}
