@@ -10,7 +10,7 @@ const EventList = () => {
   const [selectedCategory, setSelectedCategory] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:8002/events')
+    fetch('https://5-delta.vercel.app/events')
       .then((response) => response.json())
       .then((data) => {
         setEvents(data);

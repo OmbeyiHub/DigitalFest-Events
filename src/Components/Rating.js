@@ -33,12 +33,12 @@ const updatedRating = {
 
 
 try {
-  const response = await fetch(`http://localhost:8002/ratings?user=${userId}eventId=${eventId}`);
+  const response = await fetch(`https://5-delta.vercel.app/ratings?user=${userId}eventId=${eventId}`);
   const data = await response.json();
 
   if (data.length > 0) {
     // Update existing rating
-    await fetch(`http://localhost:8002/ratings/${data[0].id}`, {
+    await fetch(`https://5-delta.vercel.app/ratings/${data[0].id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ try {
     });
   } else {
     // Create a new rating entry
-    await fetch(`http://localhost:8002/ratings`, {
+    await fetch(`https://5-delta.vercel.app/ratings`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

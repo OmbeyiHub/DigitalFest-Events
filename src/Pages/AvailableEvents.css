@@ -1,8 +1,9 @@
 
 .available-events {
-    padding: 20px;
-    background-color: bisque; 
+    padding: 20px; 
     font-family: Arial, sans-serif; 
+    text-align: center;
+    align-items: center;
   }
   
   .available-events-title {

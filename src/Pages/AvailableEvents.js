@@ -5,14 +5,13 @@ import './AvailableEvents.css'
 function AvailableEvents() {
   const [events, setEvents] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:8002/events')
+    fetch('https://5-delta.vercel.app/events')
       .then(response => response.json())
       .then(data => setEvents(data));
   }, []);
 
   return (
     <div className='available-events'>
-      <h1 className='available-events-title'>Available Events </h1>
       <EventList events={events} />
     </div>
   );

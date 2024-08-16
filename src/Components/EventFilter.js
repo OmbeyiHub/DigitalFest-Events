@@ -4,7 +4,7 @@ import React from 'react';
 const EventFilter = ({ categories, selectedCategory, onCategoryChange }) => {
   return (
     <div>
-      <label htmlFor="category">Categories:</label>
+      <label htmlFor="category"></label>
       <select
         id="category"
         value={selectedCategory}

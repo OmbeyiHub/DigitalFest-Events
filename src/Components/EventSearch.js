@@ -1,5 +1,5 @@
-// src/EventSearch.js
 import React, { useState } from 'react';
+import './EventSearch.css';
 
 const EventSearch = ({ onSearch }) => {
   const [keyword, setKeyword] = useState('');

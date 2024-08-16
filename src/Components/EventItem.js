@@ -9,7 +9,7 @@ function EventItem({ event,userId }) {
   const [rating,setRating] = useState(0)
   return (
     <div className='event-card '>
-      <div className='event-card-content'>
+      <div className='event-card-content '>
       <h2>{event.name}</h2>
       <p>{event.description}</p>
       <p>{event.date}</p>
